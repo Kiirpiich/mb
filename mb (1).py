@@ -3,7 +3,7 @@ from typing import Callable
 from enum import Enum
 from random import randint
 import sys
-
+print("символы: # - не выстреленно, . - пусто, X - корабыль, O - уничтоженный корабль, * - мина")
 class EErrors(Enum):
     MAX_TRIES = "MAX TRIES REACHED: may be impossible to place ships"
 
